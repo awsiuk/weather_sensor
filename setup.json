@@ -1,0 +1,1 @@
+{"SSID": "wifi", "PASSWORD": "password.,", "zabbix_server": "10.254.7.6", "zabbix_port": 10051, "hum_corr": 21, "timezone": 2, "temp_corr": -8, "description": "Jackowo", "nodename": "node1"}
