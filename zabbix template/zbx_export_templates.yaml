@@ -1,0 +1,71 @@
+zabbix_export:
+  version: '7.0'
+  template_groups:
+    - uuid: 9bd042af19304acab5565e80ee8c4f47
+      name: 'IoT templates'
+  templates:
+    - uuid: 622a4acd7f6f42f8a6a6ea2b47b268b1
+      template: 'Template pogodynka ACTIVE'
+      name: 'Template pogodynka ACTIVE'
+      groups:
+        - name: 'IoT templates'
+      items:
+        - uuid: 7ca55bf5977d40a8b53ef960ea56c6e2
+          name: AQI
+          type: ZABBIX_ACTIVE
+          key: custom.pogodynka.AQI
+          delay: 5m
+          history: 3650d
+          trends: 3650d
+          value_type: FLOAT
+        - uuid: dda15373df3e48d7bd8472421e830ffb
+          name: eCO2
+          type: ZABBIX_ACTIVE
+          key: custom.pogodynka.eCO2
+          delay: 5m
+          history: 3650d
+          trends: 3650d
+          value_type: FLOAT
+        - uuid: 5fefce01709c4f52984dc8d51e07be57
+          name: Humidity
+          type: ZABBIX_ACTIVE
+          key: custom.pogodynka.hum
+          delay: 5m
+          history: 3650d
+          trends: 3650d
+          value_type: FLOAT
+          units: '%'
+        - uuid: 7cfa92904c894de2b7067a8f17fdb8bd
+          name: lux
+          type: ZABBIX_ACTIVE
+          key: custom.pogodynka.lux
+          delay: 5m
+          history: 3650d
+          trends: 3650d
+          value_type: FLOAT
+        - uuid: 91306ac997b649e4b2ed0dd225423de4
+          name: pressure
+          type: ZABBIX_ACTIVE
+          key: custom.pogodynka.pressure
+          delay: 5m
+          history: 3650d
+          trends: 3650d
+          value_type: FLOAT
+          units: hPa
+        - uuid: 7404001429b74c40baccd196a96a8696
+          name: Temperature
+          type: ZABBIX_ACTIVE
+          key: custom.pogodynka.temp
+          delay: 5m
+          history: 3650d
+          trends: 3650d
+          value_type: FLOAT
+          units: C
+        - uuid: a5fabc813c2f461b96ed35eab2017631
+          name: TVOC
+          type: ZABBIX_ACTIVE
+          key: custom.pogodynka.TVOC
+          delay: 5m
+          history: 3650d
+          trends: 3650d
+          value_type: FLOAT
