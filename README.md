@@ -9,8 +9,7 @@ This project is based on following electronic components:
 Project use I2C bus to communicate with hardware sensors.
 Pin A4 (SDA) & A5 (SCL) are used for I2C communication on ESP32-S3-Nano
 
----NOTE!---
-
+_*NOTE!*_
 Please note that ESP32-S3 or C6 will not work with GCMP 256 or CCMP 256, AP shall use 128bit encryption instead of 256 meaning just GCMP & CCMP (without 256 sufix).
 You need to remove support of 256 bit encrtyption from AP configuration otherwise ESP will fall in WiFi connecting loop. ESP will see the WiFi networks,
 but it will never connect. Please check ESP32 documentaion for detailed specification. 
