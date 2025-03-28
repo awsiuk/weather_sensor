@@ -1,4 +1,4 @@
-***BASELINE***
+***Introduction***
 
 This project is based on the following electronic components:
 1. ESP32-S3-Nano
@@ -14,7 +14,7 @@ Please note that ESP32-S3 or C6 will not work with the GCMP 256 or CCMP 256, AP 
 You need to remove support of 256 bit encrtyption from the AP configuration otherwise the ESP will fall in WiFi connecting loop. THe ESP will see the WiFi networks,
 but it will never connect. Please check the ESP32 documentaion for detailed specification. 
 
-***WEBACCESS***
+***Web access***
 
 This device allows pulling data by HTTP request getting JSON data, but main function is to send data to the zabbix server.
 Currently there is no option within the code to disable pushing data to the zabbix server. Maybe in the next releaases there
@@ -41,3 +41,8 @@ The configuration is done via setup.json file that is read on boot by main.py.
 * description - sting value with some description. It is used to display it on web page when you access IoT device with a browser
 * nodename - FQDN device name that is also registered under exact same FQDN in zabbix
 * pushtime - a time value [1:999999] in seconds between push to zabbix calls
+
+
+***Resources***
+* https://github.com/awsiuk/ENS160
+* 
