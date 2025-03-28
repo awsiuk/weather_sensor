@@ -47,4 +47,4 @@ The configuration is done via setup.json file that is read on boot by main.py.
 * https://github.com/awsiuk/ENS160
 
 # Licence
-You may use this code in comercial and personal use without fee. You are free to modify it and create copy of it and make your own project. When modifying this code in your own project that is separat from this package on personal or comericial purpose just leave credit information in your code.
+You may use this code in comercial and personal use without fee. You are free to modify it and create copy of it and make your own project. When modifying this code in your own project that is separat from this package on personal or comericial purpose just leave credit information in your code for Lukasz Awsiukiewicz.
