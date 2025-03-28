@@ -1,1 +1,1 @@
-{"SSID": "wifi", "PASSWORD": "password.,", "zabbix_server": "10.254.7.6", "zabbix_port": 10051, "hum_corr": 21, "timezone": 2, "temp_corr": -8, "description": "Jackowo", "nodename": "node1"}
+{"SSID": "WIFI-NETWORK", "PASSWORD": "WIFI_PASS", "zabbix_server": "10.0.0.1", "zabbix_port": 10051, "hum_corr": 0, "timezone": 2, "temp_corr": 0, "description": "some description", "nodename": "node_test.dummydomain.pl", "pushtime":60}
