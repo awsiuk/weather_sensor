@@ -31,13 +31,13 @@ Template has hardcoded custom item names that must match these within main.py fi
 ***Configuration***
 
 Configuration is done via setup.json file that is read on boot by main.py.
-SSID - WiFi network to which IoT device must connect to
-PASSWORD - WiFi password
-zabbix_server - IP address of the zabbix server to which push request will be made
-zabbix_port - TCP port number for zabbix active service communication
-hum_corr - integer value [-100:100] that tells in what direction to corect the humidity value
-temp_corr - integer value [-100:100] that tells in what direction to corect the temperatur value
-timezone - not much yet used, but just an integer [-12:12] representing timezone
-description - sting value with some description. It is used to display it on web page when you access IoT device with a browser
-nodename - FQDN device name that is also registered under exact same FQDN in zabbix
-pushtime - a time value [1:999999] in seconds between push to zabbix calls
+* SSID - WiFi network to which IoT device must connect to
+* PASSWORD - WiFi password
+* zabbix_server - IP address of the zabbix server to which push request will be made
+* zabbix_port - TCP port number for zabbix active service communication
+* hum_corr - integer value [-100:100] that tells in what direction to corect the humidity value
+* temp_corr - integer value [-100:100] that tells in what direction to corect the temperatur value
+* timezone - not much yet used, but just an integer [-12:12] representing timezone
+* description - sting value with some description. It is used to display it on web page when you access IoT device with a browser
+* nodename - FQDN device name that is also registered under exact same FQDN in zabbix
+* pushtime - a time value [1:999999] in seconds between push to zabbix calls
