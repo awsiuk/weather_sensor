@@ -9,10 +9,14 @@ This project is based on the following electronic components:
 Project use I2C bus to communicate with the hardware sensors.
 Pin A4 (SDA) & A5 (SCL) are used for I2C communication on the ESP32-S3-Nano
 
-_*NOTE!*_
+**_NOTE 1_**
 Please note that ESP32-S3 or C6 will not work with the GCMP 256 or CCMP 256, AP shall use 128bit encryption instead of 256 meaning just the GCMP & CCMP (without 256 sufix).
 You need to remove support of 256 bit encrtyption from the AP configuration otherwise the ESP will fall in WiFi connecting loop. THe ESP will see the WiFi networks,
 but it will never connect. Please check the ESP32 documentaion for detailed specification. 
+
+**_NOTE 2_**
+BME280 is not perfect for temperature measurement as it use internal temprerature sensor to calibrate humidity. If you plan to use it for percise temperature
+measurements then you need to use different hardware sensor. 
 
 # Web access
 
