@@ -50,5 +50,9 @@ The configuration is done via setup.json file that is read on boot by main.py.
 # Resources
 * https://github.com/awsiuk/ENS160
 
+# Realization documentaion
+
+![back of the sensors](https://github.com/awsiuk/weather_sensor/blob/main/Documentation/foto%20of%20the%20sensors%20back.JPG)
+
 # Licence
 You may use this code in comercial and personal use without fee. You are free to modify it and create copy of it and make your own project. When modifying this code in your own project that is separat from this package on personal or comericial purpose just leave credit information in your code for Lukasz Awsiukiewicz.
